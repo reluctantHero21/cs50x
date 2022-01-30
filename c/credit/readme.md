@@ -1,5 +1,5 @@
 ## Credit card validator
-C program that checks for the validity of a user-entered credit card number, against length, card type, and Luhn's algorithm checksum
+C program that checks the validity of a card number based on Luhn's checksum
 
 [Instructions (web)](https://cs50.harvard.edu/x/2021/psets/1/credit/)
 
