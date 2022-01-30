@@ -1,5 +1,5 @@
 ## Credit card validator
-C program that checks the validity of a card number based on Luhn's checksum
+C program that checks the validity of a card number based on [Luhn's checksum](https://en.wikipedia.org/wiki/Luhn_algorithm)
 
 ### My code
 [credit.c](/c/credit/credit.c)
