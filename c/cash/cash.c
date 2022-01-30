@@ -1,4 +1,4 @@
-# https://cs50.harvard.edu/x/2021/psets/1/cash/
+// https://cs50.harvard.edu/x/2021/psets/1/cash/
 
 #include <cs50.h>
 #include <math.h>
