@@ -1,4 +1,4 @@
-## substitution ZZZZ
+## Substitution cipher
 C program that converts plaintext to cyphertext using a substitution cipher
 
 ### My code
