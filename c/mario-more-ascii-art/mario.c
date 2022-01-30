@@ -1,4 +1,4 @@
-# https://cs50.harvard.edu/x/2021/psets/1/mario/more/
+// https://cs50.harvard.edu/x/2021/psets/1/mario/more/
 
 #include <cs50.h>
 #include <stdio.h>
