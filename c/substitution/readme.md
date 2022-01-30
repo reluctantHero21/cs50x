@@ -1,5 +1,5 @@
 ## Substitution cipher
-C program that converts plaintext to cyphertext using a substitution cipher
+C program that converts plaintext to ciphertext using a substitution cipher
 
 ### My code
 [substitution.c](/c/substitution/substitution.c)
