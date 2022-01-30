@@ -1,5 +1,5 @@
 ## Mario ASCII art
-In this assignment, I create a C program that prints a pyramid ASCII art of varible height based on user input
+C program that prints a pyramid ASCII art of varible height based on user input
 
 [Instructions (web)](https://cs50.harvard.edu/x/2021/psets/1/mario/more/)
 
