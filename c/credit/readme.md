@@ -5,7 +5,7 @@ C program that checks the validity of a card number based on Luhn's checksum
 [credit.c](/c/credit/credit.c)
 
 ### Instructions
-[Instructions (web)](https://cs50.harvard.edu/x/2021/psets/1/credit/)
+[Web version](https://cs50.harvard.edu/x/2021/psets/1/credit/)
 
-[Instrucitons (PDF)](/c/credit/instructions.pdf)
+[PDF](/c/credit/instructions.pdf)
 
