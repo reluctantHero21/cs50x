@@ -3,7 +3,7 @@ In this assignment, I create a C program that prints a pyramid ASCII art of vari
 
 [Instructions (web)](https://cs50.harvard.edu/x/2021/psets/1/mario/more/)
 
-[Instrucitons (PDF)](/c/mario-more-ascii-art/mario-more-instructions.pdf)
+[Instrucitons (PDF)](/c/mario-more-ascii-art/instructions.pdf)
 
 ## My code
 [mario.c](/c/mario-more-ascii-art/mario.c)
