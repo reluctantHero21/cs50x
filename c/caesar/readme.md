@@ -1,10 +1,10 @@
 ## DESCRIPTION
-C program that takes a WAVE file as argument and writes a new WAVE file with volume changed by user-specified factor
+C program that converts plaintext to ciphertext using [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 
 ### My code
-[volume.c](/c/volume/volume.c)
+[caesar.c](/c/caesar/caesar.c)
 
 ### Instructions
-[Web version](https://cs50.harvard.edu/x/2022/labs/4/)
+[Web version](https://cs50.harvard.edu/x/2021/psets/2/caesar/)
 
-[PDF](/c/volume/instructions.pdf)
+[PDF](/c/caesar/instructions.pdf)
