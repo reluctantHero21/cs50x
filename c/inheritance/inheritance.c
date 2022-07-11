@@ -1,3 +1,5 @@
+// https://cs50.harvard.edu/x/2022/labs/5/
+
 // Simulate genetic inheritance of blood type
 
 #include <stdbool.h>
@@ -40,6 +42,7 @@ int main(void)
 person *create_family(int generations)
 {
     // TODO: Allocate memory for new person
+    person *thisPerson = malloc(sizeof(person));
 
     // If there are still generations left to create
     if (generations > 1)
@@ -49,33 +52,55 @@ person *create_family(int generations)
         person *parent1 = create_family(generations - 1);
 
         // TODO: Set parent pointers for current person
+        thisPerson -> parents[0] = parent0;
+        thisPerson -> parents[1] = parent1;
 
         // TODO: Randomly assign current person's alleles based on the alleles of their parents
+        int a0 = rand() % 2;
+        thisPerson -> alleles[0] = parent0 -> alleles[a0];
 
+        int a1 = rand() % 2;
+        thisPerson -> alleles[1] = parent1 -> alleles[a1];
     }
 
     // If there are no generations left to create
     else
     {
         // TODO: Set parent pointers to NULL
+        thisPerson -> parents[0] = NULL;
+        thisPerson -> parents[1] = NULL;
 
         // TODO: Randomly assign alleles
-
+        thisPerson -> alleles[0] = random_allele();
+        thisPerson -> alleles[1] = random_allele();
     }
 
     // TODO: Return newly created person
-    return NULL;
+    return thisPerson;
 }
 
 // Free `p` and all ancestors of `p`.
 void free_family(person *p)
 {
     // TODO: Handle base case
-
+    if (p->parents[0] == NULL && p->parents[1] == NULL)
+    {
+        free(p);
+        p = NULL;
+        return;
+    }
     // TODO: Free parents recursively
+    else
+    {
+        free_family(p->parents[0]);
+        p->parents[0] = NULL;
 
+        free_family(p->parents[1]);
+        p->parents[1] = NULL;
+    }
     // TODO: Free child
-
+    free_family(p);
+    return;
 }
 
 // Print each family member and their alleles.
